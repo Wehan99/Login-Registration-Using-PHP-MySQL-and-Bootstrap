@@ -112,25 +112,29 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     
     <div class="container mt-5">
     <h1 class = "text-center">Signup Page </h1>
+
+    <div class = "col-md-6 mx-auto ">
     <form action = "sign.php" method = "post">
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Name</label>
-    <input type="text" class="form-control" placeholder = "Enter your name " name = "username">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder = "Enter your name " name = "username">
     
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control"  placeholder = "Enter your password " name = "password">
-  </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control"  placeholder = "Enter your password " name = "password">
+      </div>
 
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-    <input type="password" class="form-control"  placeholder = "Confirm your password " name = "cpassword">
-  </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control"  placeholder = "Confirm your password " name = "cpassword">
+      </div>
 
 
-  <button type="submit" class="btn btn-primary w-100">Sign up</button>
-</form>
+      <button type="submit" class="btn btn-primary w-100">Sign up</button>
+    </form>
+
+    </div>
 
 
 

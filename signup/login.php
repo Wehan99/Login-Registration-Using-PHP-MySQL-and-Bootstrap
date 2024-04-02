@@ -122,21 +122,25 @@ $result = mysqli_query($connection, $sql2);
     
     
     <div class="container mt-5">
-    <h1 class = "text-center">Login to Our Website </h1>
-    <form action = "login.php" method = "post">
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Name</label>
-    <input type="text" class="form-control" placeholder = "Enter your name " name = "username">
+      <h1 class = "text-center">Login to Our Website </h1>
+      <div class="col-md-6 mx-auto">
+        <form action = "login.php" method = "post" class ="mx-auto">
+          
+          <div class="mb-3 mt-5 ">
+            <label for="exampleInputEmail1" class="form-label">Name</label>
+            <input type="text" class="form-control" placeholder = "Enter your name " name = "username">
     
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control"  placeholder = "Enter your password " name = "password">
-  </div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control"  placeholder = "Enter your password " name = "password">
+          </div>
 
-  <button type="submit" class="btn btn-primary w-100">Login</button>
-</form>
+          <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
 
+    </div>
+    
 
 
     </div>
